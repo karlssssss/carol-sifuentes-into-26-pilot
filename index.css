@@ -1,0 +1,86 @@
+body {
+    background: color #f4f6f4;
+    color: #333;
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav {
+    background-color: #222;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+}
+
+
+.nav-links {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.nav-links a :hover {
+    text-decoration: underline;
+}
+
+
+.name {
+    text-align: center;
+    font size: 2.5rem;
+    color: #1a73e8;
+    margin: 2rem 0;
+}
+
+
+section {
+    padding: 2rem;
+    margin: 1.5rem auto;
+    max-width: 900px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #1a73e8;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+
+}
+
+
+.experience-list li {
+    background-color: #eef2f7;
+    padding: 1rem;
+    border-radius: 6px;
+    flex: 1 1 250px;
+}
+
+
+.experience-list h3 {
+    margin: 0;
+    font-weight: 600;
+}
+
+.date {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.connect-links a {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+
+.connect-links a {
+    color: #1a73e8;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.connect-links a:hover {
+    color: #0b4db8;
+}
